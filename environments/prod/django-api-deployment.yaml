@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: django-api
-        image: mohamedshehata18/django-api:production-latest
+        image: mohamedshehata18/django-api:prod-7e81bbf22ce0dad05fe7d0a84795e624b5a04b95
         ports:
         - containerPort: 8000
         env:
