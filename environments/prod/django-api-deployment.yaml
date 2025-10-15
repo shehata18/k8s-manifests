@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: django-api
-        image: mohamedshehata18/laravel-api:prod-1a82fbb82584c173c514ba0b32c06a3dc08c281c
+        image: mohamedshehata18/django-api:prod-64ab7805d2c74b8caea98b049694ba436fe3d158
         ports:
         - containerPort: 8000
         env:
